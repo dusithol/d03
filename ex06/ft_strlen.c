@@ -6,7 +6,7 @@
 /*   By: dusithol <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/14 15:54:10 by dusithol          #+#    #+#             */
-/*   Updated: 2020/07/15 13:41:19 by dusithol         ###   ########.fr       */
+/*   Updated: 2020/07/16 12:33:52 by dusithol         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,9 @@ void 	ft_putchar(char c)
 
 int 	ft_strlen(char *str)
 {
-	int size = 0;
+	int size;
+   		size = 0;
+
 		while(str[size] != '\0')
 		{
 			size++;
